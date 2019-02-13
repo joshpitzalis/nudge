@@ -1,0 +1,3 @@
+- add teh dot to teh clock
+- then get teh dot to drag when passed by the hour hand
+- hovering on dot shows time.

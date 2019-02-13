@@ -1,13 +1,19 @@
+import Draggable from 'gsap/Draggable';
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Clock from './Clock'
+import Clock from './Clock';
+import Tasks from './Tasks';
 
 class App extends Component {
+  componentDidMount() {
+    Draggable.create('.draggable');
+  }
+
   render() {
     return (
-      <div >
-        <Clock/>  
+      <div>
+        <Clock />
+        <Tasks />
       </div>
     );
   }
